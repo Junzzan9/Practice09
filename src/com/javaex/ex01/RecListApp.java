@@ -23,18 +23,14 @@ public class RecListApp {
 		rList.add(r03);
 		rList.add(r04);
 		//리스트 모두를 draw하는 메소드 실행
-		for(int i=0;i<rList.size();i++) {
-			rList.get(i).draw();
-		}
+		listAllDraw(rList);
 		
 
 		System.out.println("#3번째 사각형(3, 3) 삭제==========================================");
 		//사각형(3,3) 삭제 코드 작성
 		rList.remove(r03);
 		//리스트 모두를 draw하는 메소드 실행
-		for(int i=0;i<rList.size();i++) {
-			rList.get(i).draw();
-		}
+		listAllDraw(rList);
 		
 		
 		System.out.println("#4번째 사각형(4, 5)-->(9, 5)로 width 값 변경======================");
@@ -42,9 +38,7 @@ public class RecListApp {
 		rList.get(2).setWidth(9);
 
 		//리스트 모두를 draw하는 메소드 실행
-		for(int i=0;i<rList.size();i++) {
-			rList.get(i).draw();
-		}
+		listAllDraw(rList);
 		
 		
 		
