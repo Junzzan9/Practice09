@@ -5,16 +5,10 @@ public class Goods {
 	private String name;
 	private int price;
 	private int count;
-	private int sum=0;
 	
 	
-	public int getSum() {
-		return sum;
-	}
-
-	public void setSum(int sum) {
-		this.sum = sum;
-	}
+	
+	
 
 	public Goods() {
 		
@@ -59,9 +53,7 @@ public class Goods {
 		return "Goods [name=" + name + ", price=" + price + ", count=" + count + "]";
 	}
 	
-	public int sum() {
-		return sum=sum+count;
-	}
+	
 	
 	
 

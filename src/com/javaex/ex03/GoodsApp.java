@@ -18,7 +18,6 @@ public class GoodsApp {
 				if (key.equals("q")) {
 					for (int i = 0; i < gList.size(); i++) {
 						gList.get(i).showInfo();
-						gList.get(i).sum();
 					}
 					System.out.println("모든상품의 갯수는" + sum + "개 입니다.");
 					break;
